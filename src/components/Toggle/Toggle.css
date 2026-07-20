@@ -5,7 +5,7 @@
     border-radius: 1rem;
     position: relative;
     padding: 2px;
-    cursor: pointer;
+    cursor: url("../../img/cursor1.png"),auto;
 
 }
 .toggle>*{

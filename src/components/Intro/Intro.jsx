@@ -29,9 +29,13 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Shivam kumar</span>
+
+
           <span>
-           Passionate and seasoned, I am a results-driven programmer and web developer committed to producing impactful and high-quality solutions that seamlessly blend innovation with an exceptional user experience.
+          I'm a Software Engineer at Deutsche Telekom Digital Labs, building AI-powered tools and scalable backend systems with React, Node.js, Java/Spring Boot & MongoDB. I also take on freelance web development projects, helping businesses design, build, and ship production-ready websites.
           </span>
+
+
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Collaborate</button>
@@ -83,9 +87,10 @@ const Intro = () => {
           <FloatingDiv img={thumbup} text1="Programmer"/>
         </motion.div>
 
-        <div className="blur" style={{ background: "rgb(222 168 255)" }}></div>
+        <div className="blury" style={{ background: "rgb(222 168 255)" }}></div>
+        <div className="blury" style={{ background: "rgb(222 168 255)" }}></div>
         <div
-          className="blur"
+          className="blury"
           style={{
             background: "rgb(118 233 255)",
             top: "17rem",
@@ -94,6 +99,7 @@ const Intro = () => {
             left: "-9rem",
           }}
         ></div>
+       
       </div>
 
       

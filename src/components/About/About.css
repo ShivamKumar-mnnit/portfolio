@@ -1,0 +1,44 @@
+
+
+  .awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 2px;
+    /* gap: 20px; */
+  }
+
+  .bold{
+    font-size:large;
+    font-weight: bolder;
+  }
+   
+  .text-underline{
+    text-decoration: underline;
+  }
+
+           
+  .btn-grad {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+    margin: 10px;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .atag{
+    text-decoration: none;
+  }
+ 

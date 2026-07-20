@@ -1,0 +1,36 @@
+button:hover{
+    cursor: url("../../img/cursor1.png"),auto;
+}
+a:hover{
+    cursor: url("../../img/cursor1.png"),auto;
+
+}
+
+
+.one{
+    background : url("../../img/space/1.png") ;
+}
+.two{
+    background : url("../../img/space/2.png") ;
+}
+.three{
+    background : url("../../img/space/3.png") ;
+}
+.four{
+    background : url("../../img/space/4.png") ;
+}
+.five{
+    background : url("../../img/space/5.png") no-repeat;
+}
+.six{
+    background : url("../../img/space/6.png") ;
+}
+.seven{
+    background : url("../../img/space/7.png") ;
+}
+.eight{
+    background : url("../../img/space/8.png") ;
+}
+.nine{
+    background : url("../../img/space/9.png") ;
+}

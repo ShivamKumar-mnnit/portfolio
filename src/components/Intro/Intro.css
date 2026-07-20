@@ -34,8 +34,7 @@
   margin-top: 10px;
 }
 .i-button {
-  width: 6rem;
-  height: 2rem;
+  white-space: nowrap;
 }
 .i-icons {
   margin-top: 3rem;
@@ -46,7 +45,7 @@
   transform: scale(0.5);
 }
 .i-icons > *:hover {
-  cursor: pointer;
+  cursor: url("../../img/cursor1.png"),auto;
 }
 /* right side styling */
 .i-right {
@@ -81,7 +80,7 @@
 }
 
 /* blur */
-.blur {
+.blury {
   position: absolute;
   width: 22rem;
   height: 14rem;
